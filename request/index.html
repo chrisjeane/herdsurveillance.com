@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Removal requests · Herd Surveillance™</title>
+<meta name="description" content="Request removal of a file from the Herd Surveillance website.">
+
+<link rel="canonical" href="https://herdsurveillance.com/request/">
+<meta name="theme-color" content="#0B1212">
+<meta name="referrer" content="no-referrer">
+<meta property="og:site_name" content="Herd Surveillance">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Removal requests · Herd Surveillance™">
+<meta property="og:description" content="Request removal of a file from the Herd Surveillance website.">
+<meta property="og:url" content="https://herdsurveillance.com/request/">
+<meta property="og:image" content="https://herdsurveillance.com/assets/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://herdsurveillance.com/assets/og-default.jpg">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="/assets/site.js" defer></script><script src="/assets/request.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="scan" aria-hidden="true"></div>
+<header class="top">
+<div class="wrap">
+<div class="hbar">
+<a class="bug" href="/"><img src="/assets/mark-64.png" alt="" width="32" height="32"><span class="brand">HERD SURVEILLANCE™<small>KODO PLATE READER</small></span></a>
+<a class="live" href="https://www.youtube.com/watch?v=j8osaCpqhd0" rel="noopener">LIVE<span class="sr"> on YouTube</span></a>
+<button class="btn menu-t" type="button" id="menuT" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav class="main" id="nav" aria-label="Main"><a href="/">Home</a><a href="/directory/">Directory</a><a href="/transparency/">Transparency Portal</a><a href="/about/">About</a></nav>
+</div>
+<p class="tag">Stopping stampedes before they start. Also walks. Also standing.</p>
+</div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<div class="req">
+<div class="plain">
+<span class="lbl">PLAIN LANGUAGE · NOT A BIT</span>
+<h1 id="h-rq">Your file</h1>
+<div class="tabs" role="tablist" aria-label="Request type">
+<button role="tab" type="button" id="tRm" aria-selected="true" aria-controls="pRm">Removal</button>
+<button role="tab" type="button" id="tCl" aria-selected="false" aria-controls="pCl" tabindex="-1">Show it unblurred</button>
+</div>
+<div id="pRm" role="tabpanel" aria-labelledby="tRm">
+<form class="frm" id="rmForm" action="mailto:removal@herdsurveillance.com?subject=Remove%20my%20file" method="post" enctype="text/plain" novalidate>
+<div class="errsum" id="rmErr" role="alert" tabindex="-1" hidden></div>
+<label for="rmId">File number or plate</label>
+<p class="hint" id="rmHint">It's on the file page, for example HS-260926-121800-001 or BARRENS-5280.</p>
+<input id="rmId" name="file" aria-describedby="rmHint" autocomplete="off" spellcheck="false">
+<label class="ck"><input type="checkbox" id="rmDk" name="dont_know"> I don't know my plate</label>
+<div id="rmWhen" class="when">
+<label for="rmW">Roughly when were you on the cam?</label>
+<input id="rmW" name="when" placeholder="e.g. Saturday evening">
+<label for="rmD">Anything that helps us find it (optional)</label>
+<textarea id="rmD" name="details"></textarea>
+</div>
+<button class="btn plain" type="submit">Send request</button>
+<p class="fine">Applies to files on this website only.</p>
+<p class="fine">This opens your email app with the message ready to send. No email app? Send the file number to <strong id="addr">removal@herdsurveillance.com</strong> <button class="btn copy" type="button" id="copyBtn" data-copy="removal@herdsurveillance.com">Copy address</button> <span id="copyOk" role="status"></span></p>
+</form>
+<div class="sent" id="rmSent" tabindex="-1" hidden>
+<h2>Almost done</h2>
+<p>Your email app should now show the message. Press send to request removal of the file from this website.</p>
+<p>Nothing opened? Email <strong>removal@herdsurveillance.com</strong> and include: <strong id="sentRef"></strong></p>
+<p><a href="/directory/">Back to the directory</a></p>
+</div>
+</div>
+<div id="pCl" role="tabpanel" aria-labelledby="tCl" hidden>
+<h2>Coming soon</h2>
+<p>Pictures are shown as captured by the live stream.</p>
+</div>
+</div>
+<aside class="panel herdproc" aria-labelledby="h-hp">
+<h2 id="h-hp">HERD STANDARD REMOVAL PROCESS <span>(for comparison)</span></h2>
+<ol><li>Obtain an Elder writ <s>(not available)</s></li><li>Complete Form KPR-7 in triplicate (quadruplicate for kodos)</li><li>Verify identity by standing still at the mailbox</li><li>Wait for model v3 to recognize you</li><li>Pay the 40g records-retrieval fee (COD)</li><li>Describe your file without seeing it</li><li>Submit a hoofprint</li><li>Attend public comment (Tue 3:00–3:04 AM)</li><li>Wait 90 days</li><li>Your file has been shared with SI:7. Thank you.</li></ol>
+</aside>
+</div>
+</div>
+</main>
+<footer class="bot">
+<div class="wrap">
+<p><strong>PARODY / SATIRE.</strong> Herd Surveillance is a fictional company in World of Warcraft. Not affiliated with any real surveillance or camera company, or Blizzard Entertainment. World of Warcraft® is a trademark of Blizzard Entertainment, Inc.</p>
+<p>Cookies on this site: 0. Tracking on this site: 0. Elder writs required to view it: also 0. · <a href="/about/">About</a> · <a href="/request/">Removal requests</a> · <a href="/transparency/">Transparency Portal</a></p>
+</div>
+</footer>
+</body>
+</html>
