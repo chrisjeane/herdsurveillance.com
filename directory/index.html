@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Persons of interest (directory) · Herd Surveillance™</title>
+<meta name="description" content="Search the (fake) Herd Surveillance database of Thunder Bluff persons of interest.">
+
+<link rel="canonical" href="https://herdsurveillance.com/directory/">
+<meta name="theme-color" content="#0B1212">
+<meta name="referrer" content="no-referrer">
+<meta property="og:site_name" content="Herd Surveillance">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Persons of interest (directory) · Herd Surveillance™">
+<meta property="og:description" content="Search the (fake) Herd Surveillance database of Thunder Bluff persons of interest.">
+<meta property="og:url" content="https://herdsurveillance.com/directory/">
+<meta property="og:image" content="https://herdsurveillance.com/assets/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://herdsurveillance.com/assets/og-default.jpg">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="/assets/site.js" defer></script><script src="/assets/directory.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="scan" aria-hidden="true"></div>
+<header class="top">
+<div class="wrap">
+<div class="hbar">
+<a class="bug" href="/"><img src="/assets/mark-64.png" alt="" width="32" height="32"><span class="brand">HERD SURVEILLANCE™<small>KODO PLATE READER</small></span></a>
+<a class="live" href="https://www.youtube.com/watch?v=6alpMqCytQo" rel="noopener">LIVE<span class="sr"> on YouTube</span></a>
+<button class="btn menu-t" type="button" id="menuT" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav class="main" id="nav" aria-label="Main"><a href="/">Home</a><a href="/directory/" aria-current="page">Directory</a><a href="/transparency/">Transparency Portal</a><a href="/about/">About</a></nav>
+</div>
+<p class="tag">Stopping stampedes before they start. Also walks. Also standing.</p>
+</div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<div class="dhead">
+<h1 id="h-dir">PERSONS OF INTEREST</h1>
+<p class="sub"><span id="dTotal">1,678</span> subjects on file · Elder writs used: <b>0</b></p>
+</div>
+<form class="filters" id="filters" role="search" aria-label="Search files" action="/directory/" method="get">
+<div class="srow">
+<label for="q" class="sr">Search plate, behavior or activity</label>
+<input id="q" name="q" type="search" placeholder='Plate or behavior, e.g. 5280, "standing"' autocomplete="off" spellcheck="false">
+<button class="btn solid" type="submit">Search</button>
+<button class="btn fdrawer-t" type="button" id="fT" aria-expanded="false" aria-controls="frow">Filters</button>
+</div>
+<div class="frow" id="frow">
+<div class="f"><label for="fb">Behavior</label><select id="fb" name="behavior"><option value="">Any</option></select></div>
+<div class="f"><label for="fc">Activity</label><select id="fc" name="activity"><option value="">Any</option></select></div>
+<div class="f"><fieldset><legend>Risk</legend><div class="seg">
+<label><input type="radio" name="risk" value="" checked><span>Any</span></label>
+<label><input type="radio" name="risk" value="low"><span>Low</span></label>
+<label><input type="radio" name="risk" value="elevated"><span>Elevated</span></label>
+<label><input type="radio" name="risk" value="severe"><span>Severe</span></label></div></fieldset></div>
+<div class="f"><fieldset><legend>Seen</legend><div class="seg">
+<label><input type="radio" name="seen" value="1"><span>24h</span></label>
+<label><input type="radio" name="seen" value="7"><span>7d</span></label>
+<label><input type="radio" name="seen" value="30" checked><span>30d</span></label></div></fieldset></div>
+<div class="f"><label for="fo">Sort</label><select id="fo" name="sort"><option value="new">Newest</option><option value="risk">Highest risk</option><option value="exp">Expiring soonest</option></select></div>
+<div class="f fbtns"><button class="btn" type="button" id="fReset">Reset</button><button class="btn solid apply" type="button" id="fApply">Show results</button></div>
+</div>
+</form>
+<div class="chips" id="chips" aria-label="Active filters"></div>
+<p class="count" id="count" aria-live="polite" role="status">Checking with SI:7…</p>
+<div class="grid" id="dirGrid" aria-busy="true"><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div><div class="card skel" aria-hidden="true"></div></div>
+<div class="more" id="more" hidden><button class="btn" type="button" id="moreBtn">Load more</button></div>
+<noscript><div class="plain"><p>The directory search needs JavaScript. The latest files are on the <a href="/">home page</a>.</p></div></noscript>
+</div>
+</main>
+<footer class="bot">
+<div class="wrap">
+<p><strong>PARODY / SATIRE.</strong> Herd Surveillance is a fictional company in World of Warcraft. Not affiliated with any real surveillance or camera company, or Blizzard Entertainment. World of Warcraft® is a trademark of Blizzard Entertainment, Inc.</p>
+<p>Cookies on this site: 0. Tracking on this site: 0. Elder writs required to view it: also 0. · <a href="/about/">About</a> · <a href="/request/">Removal requests</a> · <a href="/transparency/">Transparency Portal</a></p>
+</div>
+</footer>
+</body>
+</html>
